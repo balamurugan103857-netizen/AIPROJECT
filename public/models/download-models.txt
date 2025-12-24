@@ -1,0 +1,19 @@
+Face Detection Models Required
+
+The face-api.js library requires pre-trained model files to work.
+These files should be placed in this directory (public/models/).
+
+Required model files:
+1. tiny_face_detector_model-weights_manifest.json
+2. tiny_face_detector_model-shard1
+3. face_landmark_68_model-weights_manifest.json
+4. face_landmark_68_model-shard1
+5. face_recognition_model-weights_manifest.json
+6. face_recognition_model-shard1
+7. face_recognition_model-shard2
+
+You can download these from:
+https://github.com/justadudewhohacks/face-api.js/tree/master/weights
+
+Or run this script to download them automatically:
+npm run download-models
